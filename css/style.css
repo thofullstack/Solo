@@ -1,8 +1,40 @@
-/* Boostrap Grid Examples */
+/* ==========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Open Sans
+    ----------------------------------------
+    Colors:
+        Moon Yellow:    #f4c613
+        Grey:           #212226
+        White Smoke:    #f4f4f4
+        Black:          #000
+  ========================================== */
 
-.col-bg-red {
-    background-color:red;
+  
+  
+  /* ==========================================
+    |   |   |       Preloader
+  ========================================== */
+
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
-.col-bg-pink {background-color:pink;}
-.col-bg-blue {background-color:blue;}
-.col-bg-yellow {background-color:yellow;}
+#status {
+    background-image: url("../image/preloader/preloader.gif");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+
